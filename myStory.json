@@ -1,0 +1,305 @@
+{
+    "Title": "Super Duper Scary Maze",
+    "Credits": "Created by Zachary Witt (zwitt@ucsc.edu).",
+    "InitialLocation": "Evil Hell Hallway",
+    "Locations": {
+        "Evil Hell Hallway": {
+            "Body": "You're in the evil hell hallway. It sucks ass in here u need to leave right now.",
+            "Choices": [
+                {
+                    "Text": "Hide in the Shadowy Sidestreets",
+                    "Target": "Shadowy Sidestreets"
+                },
+                {
+                    "Text": "Go to the Beautiful Green Courtyard (YAY!)",
+                    "Target": "Beautiful Green Courtyard"
+                },
+                {
+                    "Text": "Head into the Creepy Corridor",
+                    "Target": "Creepy Corridor"
+                }
+            ]
+        },
+        "Beautiful Green Courtyard": {
+            "Body": "There's no way you thought this was a real place. <br> This is the super duper scary maze. <br> As you enter the Beautiful Green Courtyard you notice it's not actually that green or even beautiful for that matter. <br> The courtyard is is a dull grey highlighted in red by various pools of gore and viscera. <br> Looking at the sinage around you you realize this is actually the courtyard of gross blood and viscera and it is super scary (You need to leave right now).",
+            "Choices": [
+                {
+                    "Text": "Run Back to the Evil Hell Hallway",
+                    "Target": "Evil Hell Hallway"
+                },
+                {
+                    "Text": "Go over to Porter",
+                    "Target": "Porter"
+                },
+                {
+                    "Text": "Aventure into the Lava Cascades of Very Probable Almost Certain Death",
+                    "Target": "Lava Cascades of Very Probable Somewhat Certain Death"
+                }
+            ]
+        },
+        "Porter": {
+            "Body": "You shudder as chills run down your spine, they warned me about this place... The intense stench of sewage almost knocks you back off of your feet. Why did I come here I am so freaking scared.",
+            "Choices": [
+                {
+                    "Text": "Go back to the Courtyard",
+                    "Target": "Beautiful Green Courtyard"
+                },
+                {
+                    "Text": "Head to the hospital",
+                    "Target": "One-Handed Hospital"
+                }
+            ]
+        },
+        "Molester Closet": { 
+            "Body": "Yeah okay you sick freak. I don't know why I even gave you a choice, I'm not letting you go in there, try again.",
+            "Choices": [
+                {
+                    "Text": "2B",
+                    "Target": "2B"
+                }
+            ]
+        },
+        "Lava Cascades of Very Probable Somewhat Certain Death": {
+            "Body": "While navagating down the long and scary corridors the heat becomes unbearable. Just as you feel like you couldn't last another miniute you stumble upon a massive bluff dripping with oozing lava. After scanning the area you notice that all the lava is converging into one giant pool. As you approach the edge of the pool, you feel your body sweating buckets. A feeble attempt to fight the overpowering heat of the cascades. It's clear why they call this place the Lava Cascades of Very Probable Somewhat Certain Death and you feel like there's a good chance that you may not make it out alive.",
+            "Choices": [
+                {
+                    "Text": "Shadowy Sidestreets",
+                    "Target": "Shadowy Sidestreets"
+                },
+                {
+                    "Text": "Beautiful Green Courtyard",
+                    "Target": "Beautiful Green Courtyard"
+                },
+                {
+                    "Text": "Oh my god there's a hospital maybe they can help!",
+                    "Target": "One-Handed Hospital"
+                }
+            ]
+        },
+        "Shadowy Sidestreets": {
+            "Body": "The sidestreets are illuminated by the glow eminating from your disfigured burning hand. As you look around you realize, its actually really cute in here. This place isn't scary at all the walls are all pink and it smells like roses (and burning skin and hair too that sucks). There's a sign that reads maze exit this way and you can't help but trust it. You get the feeling that this room is an escape from the horrors of the super scary maze.",
+            "Choices": [
+                {
+                    "Text": "Head Toward the Lava Cascades",
+                    "Target": "Lava Cascades of Very Probable Somewhat Certain Death",
+                    "RequireFlags": ["hasHand","hasProstheticHand"]
+                },
+                {
+                    "Text": "Go to the locked door lagoon",
+                    "Target": "Locked Door Lagoon",
+                    "RequireFlags": ["hasHand","hasProstheticHand"]
+                },
+                {
+                    "Text": "Go back to the Evil Hell Hallway",
+                    "Target": "Evil Hell Hallway"
+                }
+            ]
+        },
+        "Creepy Corridor": {
+            "Body": "The creepy corridor is pretty creepy. You hear whispers but can't quite desipher what they're saying but you have a feeling that its about your physical appearance. You've gained quite a bit of weight recently because of a genetic thyroid issue so it's not even fully your fault so it's upsetting that you're now being judged for it. It's hard to get in shape and even harder to feel confiedent about yourself, its a reminder that the expectations of others will always be scarier than anything you could encounter in this maze. Wow, that was really deep and profound but you still want to keep moving.",
+            "Choices": [
+                {
+                    "Text": "You see a Labyrinth up ahead and groan. Nobody likes labyrinths they're super lame.",
+                    "Target": "Lame Ass Labyrinth"
+                },
+                {
+                    "Text": "Go back to the Evil Hell Hallway",
+                    "Target": "Evil Hell Hallway"
+                }
+            ]
+        },
+        "Lame Ass Labyrinth": {
+            "Body": "You enter the labyrinth and see a sign absoultely tearing the concept of a labyrinth to shreds. They have really good points and you cant help but feel bad for the labyrinth's creator. He clearly put a lot of time and effort into it's creation in the hopes that people would like it. Maybe I'll go in with an open mind, you think to yourself. ",
+            "Choices": [
+                {
+                    "Text": "Go Down to the Left",
+                    "Target": "1A"
+                },
+                {
+                    "Text": "Go Down to the Right",
+                    "Target": "1B"
+                }
+            ]
+        },
+        "1A": {
+            "Body": "It's dark in here, scary even. It's kind of cool maybe this will be a fun Labyrinth",
+            "Choices": [
+                {
+                    "Text": "Go Right",
+                    "Target": "1B"
+                },
+                {
+                    "Text": "Go Forward",
+                    "Target": "2A"
+                }
+            ]
+        },
+        "1B": {
+            "Body": "Okay this part smells good. Credit where credit's due the creator really nailed the aesthetic of this room. Maybe this won't be a lame labrynth",
+            "Choices": [
+                {
+                    "Text": "Go left",
+                    "Target": "1A"
+                },
+                {
+                    "Text": "Go Forward",
+                    "Target": "2B"
+                }
+            ]
+        },
+        "2A": {
+            "Body": "You stub your foot really hard on the uneven flagstone floor. Okay fuck this place this labyrinth is dumb as shit. There's literally no lighting anyone could stub their toe here and that's just bad design.",
+            "Choices": [
+                {
+                    "Text": "Go Backward",
+                    "Target": "1A"
+                },
+                {
+                    "Text": "Go Right",
+                    "Target": "2B"
+                },
+                {
+                    "Text": "Go Forward",
+                    "Target": "3A"
+                }
+            ]
+        },
+        "2B": {
+            "Body": "This room doesn't smell good at all. I think all the smell budget only went into that one room. Which makes it feel very tacky. Not only that but this room smells like cheap fabreeze. Why would they take such a half measure, they also sprayed way too much and now the whole room is wet and misty.",
+            "Choices": [
+                {
+                    "Text": "Go Backward",
+                    "Target": "1B"
+                },
+                {
+                    "Text": "Go Left",
+                    "Target": "2A"
+                },
+                {
+                    "Text": "Go Forward",
+                    "Target": "3B"
+                },
+                {
+                    "Text": "Venture into the Molester Closet",
+                    "Target": "Molester Closet"
+                }
+            ]
+        },
+        "3A": {
+            "Body": "Okay this place sucks so bad how do we get out of here it has to be close by. This feels like a small Labyrinth anywawy, whoever made this should not be allowed to do any maze work ever again and I don't want to sound harsh I don't really subscribe to capital punishment but this unhinged freak should probably be executed or something.",
+            "Choices": [
+                {
+                    "Text": "Go Right",
+                    "Target": "3B"
+                },
+                {
+                    "Text": "Go Backward",
+                    "Target": "2A"
+                },
+                {
+                    "Text": "ESCAPE THE LABYRINTH",
+                    "Target": "Locked Door Lagoon"
+                }
+            ]
+        },
+        "3B": {
+            "Body": "Lmao you went to the one end room that doesn't have an exit. I know I've been shitting on this maze but honestly I'd be lying if I said ur intelligence wasn't partially to blame. (And partially is generous).",
+            "Choices": [
+                {
+                    "Text": "Go Right",
+                    "Target": "3A"
+                },
+                {
+                    "Text": "Go Backward",
+                    "Target": "2B"
+                }
+            ]
+        },
+        "Locked Door Lagoon": {
+            "Body": "You find a swamp covered wall to wall with mysterious doors on every surface. You open each door and find that they wont budge. Suddenly one door catches your eye. Its gold and it reads maze exit. Should I trust that? you think to yourself, yeah probably this whole maze seems really low effort they probably just wanted to finish it out here. You notice it has a large and spooky keyhole.",
+            "Choices": [
+                {
+                    "Text": "Escape With Hands",
+                    "Target": "Escape With Hands",
+                    "RequireFlags": ["hasKey", "hasProstheticHand"]                    
+                },
+                {
+                    "Text": "Escape With 1 hand",
+                    "Target": "Escape no Hands",
+                    "RequireFlags": ["hasKey", "!hasHand"] 
+                },
+                {
+                    "Text": "Shadowy Sidestreets",
+                    "Target": "Shadowy Sidestreets"
+                },
+                {
+                    "Text": "Enter the Labyrinth",
+                    "Target": "3A"
+                }
+            ]
+        },
+        "One-Handed Hospital": {
+            "Body": "Welcome to the one handed hospital. We're called that because we exclusively heal people who only have 1 hand. You might be wondering if this is a trap because you're in that super evil maze but we actually setup shop here before the maze was created so really its just an unfortunate set of circumstances. ",
+            "Choices": [
+                {
+                    "Text": "Venture into Porter",
+                    "Target": "Porter"
+                },
+                {
+                    "Text": "Move forward to a room marked Hole Clenching Hint corner. It sounds Ominous and a little suggestive",
+                    "Target": "Hole Clenching Hint Corner"
+                },
+                {
+                    "Text": "Climb up to the lava cascades of very probable and almost certain death",
+                    "Target": "Lava Cascades of Very Probable Somewhat Certain Death"
+                },
+                {
+                    "Text": "Go to the teleporter",
+                    "Target": "Teleporter A"
+                }
+            ]
+        },
+        "Hole Clenching Hint Corner": {
+            "Body": "As you walk in you notice the room is completly empty. Too empty... *BOOOO* a little short dude with a cane hops out and hits you in the balls so hard you spit out blood (Ignore if you don't have balls). Yeah the hole clenching part was a misdirect so I could hit you in the balls, he says smugly while you write in fetal position on the floor. Anyway I'm not big on hints I'm an on the ball kind of person. (Get it) *He smacks you in the balls again* just go to the lava cascades and grab a key there. Honestly you're probably gonna lose ur hand so goodluck",
+            "Choices": [
+                {
+                    "Text": "Go Back to the Hospital",
+                    "Target": "One-Handed Hospital"
+                }
+            ]
+        },
+        "Escape With Hands": {
+            "Body": "Holy shit you have hands RUN GET OUT OF HERE. (You get bonus points for having both hands, not that it's bad to only have one hand but it seems like that probably took a little more effort than just continuing with one hand. And good on you for taking initiative and helping yourself."
+        },
+
+        "Escape no Hands": {
+            "Body": "Holy shit you have no hands. Lol how are you going to live life with one hand that sucks so much. That can't have been worth it. This is for sure the bad ending."
+        },
+        "Teleporter A":{
+            "Body": "Welcome to the One-Handed Hospital's teleporter. Today your teleporter will be taking you across the maze to the lame ass labyrinth!",
+            "Choices": [
+                {
+                    "Text":"Initiate Teleport!",
+                    "Target":"Teleporter B"
+                },
+                {
+                    "Text":"Go Back to the Hospital",
+                    "Target":"One-Handed Hospital"
+                }
+            ]
+        },
+        "Teleporter B":{
+            "Body": "Welcome to the Lame Ass Labyrinth's Teleporter. Today we will be taking you all the way to the One-Handed Hospital!",
+            "Choices": [
+                {
+                    "Text":"Initiate Teleport!",
+                    "Target":"Teleporter A"
+                },
+                {
+                    "Text":"Go into the Labyrinth",
+                    "Target":"Lame Ass Labyrinth"
+                }
+            ]
+        }
+    }
+}
